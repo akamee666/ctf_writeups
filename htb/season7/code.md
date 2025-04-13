@@ -1,4 +1,4 @@
-# Code Easy Linux Machine
+# Code Linux Easy Machine - Season 7
 
 Start by finding a website like a python editor to code in your browser >> since the code is being executed in the server you can just try to scape or execute commands that were not suppose to be executed.
 

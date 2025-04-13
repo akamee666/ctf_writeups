@@ -1,4 +1,4 @@
-# Dog Easy Linux Machine - HackTheBox Walkthrough
+# Dog Linux Easy Machine - Season7
 
 ## Initial Enumeration
 1. **Find `.git` Directory**:

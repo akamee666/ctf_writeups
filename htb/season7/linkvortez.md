@@ -1,6 +1,4 @@
-
-Copy
-# LinkVortex Machine - HackTheBox
+# LinkVortex Linux Easy Machine - Season7
 
 ## Initial Enumeration
 Start by enumerating the website. Subdomain enumeration reveals a `.dev` subdomain. Directory enumeration on this subdomain shows that a `.git` repository is available.

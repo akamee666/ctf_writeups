@@ -40,7 +40,7 @@ There is several ways to do this, but i've used [pre2k](https://github.com/garre
 pre2k unauth -d vintage.htb -dc-ip 10.10.11.45 -save -inputfile list-of-users.txt # users came from the rid brute force
 ```
 
-![](capture-the-flag/htb/season7/attachments/Pasted%20image%2020250328174652.png)
+pre2k will try to fuzz things and luckily it will find the FS01 password.
 
 So now you have the password for the FS01 Domain, which will be used in this case because the group DOMAIN COMPUTERS has ability to read the password hash of a user called GMSA01$ as you can see:
 
@@ -126,6 +126,8 @@ This will give you another user: c.neri_adm FS01
 Taking a look at bloodhound for our new users we can see we have rights for the group called DELEGATEADMINS
 
 ![](capture-the-flag/htb/season7/attachments/Pasted%20image%2020250328182211.png)
+
+## Getting Root
 
 What we are going to do here is pretty nasty and i couldn't figure it out by myself, a guy helped me to find this.
 
