@@ -111,7 +111,7 @@ msldap.commons.exceptions.LDAPModifyException:
 Password can't be changed before -1 day, 7:58:44.850772 because of the minimum password age policy.
 ```
 
-To get to the root is something like (i'm not remembering it well):
+To get to the root:
 
 1. Download Backup file in the C:\
 2. Find hash credentials for alexander.green
